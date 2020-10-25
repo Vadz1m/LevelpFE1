@@ -1,0 +1,56 @@
+#title {
+    font-family: fantasy;
+    
+}
+
+body {
+    display: block;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    background-image: linear-gradient(rgb(130, 181, 223), rgb(29, 93, 112));
+}
+
+#main-body {
+    text-align: start;
+    font-family: cursive;
+    background: rgba(56, 56, 56, 0.3); 
+    border-width: 3px;
+    border-color:black;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+
+.some {
+    border-radius: 10px;
+    height: 30px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+table {
+    text-align: center;
+    display: inline-block;
+    margin: 0 15% 0 15%;
+    background: rgba(56, 56, 56, 0.2);
+    border-width: thin;
+    border-color: black;
+    border-radius: 20px;
+}
+
+img:hover {
+    transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+    transition-duration: 10s;
+    -webkit-transition-duration: 10s;
+}
+
+tr:hover {
+    background: rgba(56, 56, 56, 1);
+}

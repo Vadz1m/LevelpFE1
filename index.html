@@ -4,40 +4,33 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="./css/main.css">
     </head>
     <body>
-        <div style="width: 75%;">
-        <div>
-            <h1>Вакансия: Junior Frontend Developer</h1>
-        </div>
+        <div id="main-body" style="display: inline-block;">
+            <h1 id="title">Вакансия: Junior Frontend Developer</h1>
         <div style="display: inline-block;">
             <img src="https://w-dog.ru/wallpapers/5/18/289291145046987/evropejskaya-koshka-dikij-kot-morda-vzglyad.jpg" width= 150px alt="Котей">
         </div>
-        <div style="display: inline-block;">
-            <span>
+        <div style="display: inline-block; vertical-align: top;">
                 <span>ФИО: Колчин Вадим Андреевич</span><br>
                 <a href="https://github.com/Vadz1m/LevelpFE1" target="_blank">Ссылка на репозиторий ГитХаб</a><br>
                 <span>Опыт работы: нет</span>
-            </span>
         </div>
         <br>
         <br>
         <div>
             <span>Дата собеседования: </span>
-            <input type="date">
+            <input type="date" class="some">
         </div>
         <br>
-        <div>
-            <div>
                 <form action="">
                 Уровень английского:<br>
-                <input type="radio" name="answer" value="choice1">Плохо
-                <input type="radio" name="answer" value="choice2">Средне
-                <input type="radio" name="answer" value="choice3">Хорошо
-                <input type="radio" name="answer" value="choice4">Превосходно
+                <label><input type="radio" name="answer" value="choice1"><span style="cursor: pointer;">Плохо</span></label>
+                <label><input type="radio" name="answer" value="choice2"><span style="cursor: pointer;">Средне</span></label>
+                <label><input type="radio" name="answer" value="choice3"><span style="cursor: pointer;">Хорошо</span></label>
+                <label><input type="radio" name="answer" value="choice4"><span style="cursor: pointer;">Превосходно</span></label>
             </form>
-            </div>
-        </div>
         <br>
         <div>
             Ключевые навыки
@@ -46,13 +39,13 @@
                 <li>CSS</li>
                 <li>JavaScript</li>
             </ul>
-            <input type="text">
-            <button>Добавить в список</button>
+            <input type="text" placeholder="Введите навык..." class="some">
+            <button style="cursor: pointer;" class="some">Добавить в список</button>
         </div>
         <br>
         <div>
             Коммуникабельность: 
-            <select name="" id="">
+            <select name="" id="" style="cursor: pointer;" class="some">
                 <option value="">Боже упаси, выкиньте его</option>
                 <option value="">Даже не знаю</option>
                 <option value="">Вроде ничего</option>
@@ -62,20 +55,18 @@
         <br>
         <div>
             Желаемая ЗП: 
-            <input type="text">
+            <input type="number" placeholder="Введите желаемую ЗП..." class="some">
         </div>
         <br>
-        <div>
             <form action="">
                 Подходит по кретериям:<br>
-                <input type="checkbox">Знание английского
-                <input type="checkbox">Оклад
-                <input type="checkbox">Навыки
-                <input type="checkbox">Сразу видно, что свой человек
+                <label><input type="checkbox" value="Знание английского"><span style="cursor: pointer;">Знание английского</span></label>
+                <label><input type="checkbox" value="Оклад"><span style="cursor: pointer;">Оклад</span></label>
+                <label><input type="checkbox" value="Навыки"><span style="cursor: pointer;">Навыки</span></label>
+                <label><input type="checkbox" value="Сразу видно, что свой человек"><span style="cursor: pointer;">Сразу видно, что свой человек</span></label>
             </form>
-        </div>
         <br>
-        <table frame="border" rules="all" width="500px">
+        <table>
             <tr><td>#</td><td>Сроки обучения </td><td>Наименование учебного заведения, курсов</td></tr>
             <tr><td>1</td><td>3 месяца</td><td>LeveP, Java</td></tr>
             <tr><td>2</td><td>30 лет</td><td>Страданий в жизни</td></tr>
